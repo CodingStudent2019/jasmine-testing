@@ -10,7 +10,7 @@ describe("Calculator", function() {
             spyOn(window, "alert")
             addition("Hitchhikers", "Guide");
             expect(window.alert).toHaveBeenCalledWith
-            ("Error");
+            ("Error!");
         });
     });
 });
