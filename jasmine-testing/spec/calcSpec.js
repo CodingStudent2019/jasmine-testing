@@ -16,8 +16,7 @@ describe("Calculator", function() {
         it("should return an error if we don't supply two numbers", function() {
             spyOn(window, "alert")
             calc.add("Hitchhikers");
-            expect(window.alert).toHaveBeenCalledWith
-            ("Error!");
+            expect(window.alert).toHaveBeenCalledWith("Error!");
         });
     });
 });
