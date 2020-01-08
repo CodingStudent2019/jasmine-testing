@@ -6,6 +6,8 @@ describe("whatCanIDrink", function() {
 
     describe("age", function() {
         it("should be confirmed", function() {
+        expect(whatCanIDrink).toBeDefined();
+        });
     });
-
+    
 });
